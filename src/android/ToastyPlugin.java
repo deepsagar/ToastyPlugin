@@ -37,5 +37,5 @@ public class ToastyPlugin extends CordovaPlugin {
       PluginResult pluginResult = new PluginResult(PluginResult.Status.OK);
       callbackContext.sendPluginResult(pluginResult);
       return true;
-  }
+  });
 }
